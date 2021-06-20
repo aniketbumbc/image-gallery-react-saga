@@ -11,7 +11,6 @@ function ImageGrid() {
   }, []);
 
   const getPhotos = async () => {
-    debugger;
     const result = await fetch(
       `https://api.unsplash.com/photos/?client_id=${key}&per_page=28`
     );
