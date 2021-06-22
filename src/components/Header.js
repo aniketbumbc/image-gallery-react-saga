@@ -3,7 +3,7 @@ import React from 'react';
 function Header() {
   return (
     <>
-      <h2>Splash Gallery</h2>
+      <h2>Splash Gallery Photos </h2>
     </>
   );
 }
